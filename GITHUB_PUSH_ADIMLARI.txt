@@ -1,0 +1,59 @@
+═══════════════════════════════════════════════════════════════
+  GITHUB'A PROJE YÜKLEME - ADIM ADIM
+═══════════════════════════════════════════════════════════════
+
+✅ YAPILAN İŞLEMLER:
+  ✓ Git kuruldu
+  ✓ git init yapıldı
+  ✓ Dosyalar eklendi (git add .)
+  ✓ Commit yapıldı
+  ✓ GitHub repository bağlandı
+  ✗ Push yapılması gerekiyor (authentication gerekli)
+
+═══════════════════════════════════════════════════════════════
+  ADIM 1: TOKEN OLUŞTUR (5 DAKİKA)
+═══════════════════════════════════════════════════════════════
+
+1. Tarayıcıda GitHub'a git: https://github.com
+2. Giriş yap (burakyigen68)
+3. Sağ üstteki profil resmine tıkla
+4. "Settings" tıkla
+5. Sol menüden en altta "Developer settings" tıkla
+6. "Personal access tokens" → "Tokens (classic)" tıkla
+7. "Generate new token" → "Generate new token (classic)" tıkla
+8. Şunları doldur:
+   - Note: apartman-projesi
+   - Expiration: 90 days
+   - Scopes: "repo" kutucuğunu işaretle ✅
+9. En altta "Generate token" tıkla
+10. Token'ı KOPYALA! (ghp_xxxxxxxxxxxx şeklinde)
+    ⚠️ BİR DAHA GÖSTERİLMEYECEK!
+
+═══════════════════════════════════════════════════════════════
+  ADIM 2: PUSH YAP (1 DAKİKA)
+═══════════════════════════════════════════════════════════════
+
+PowerShell'de şu komutu çalıştır:
+
+    git push -u origin main
+
+İstendiğinde:
+  - Username: burakyigen68
+  - Password: Token'ı yapıştır (şifre değil!)
+
+═══════════════════════════════════════════════════════════════
+  ALTERNATİF: GITHUB DESKTOP (DAHA KOLAY)
+═══════════════════════════════════════════════════════════════
+
+1. GitHub Desktop indir: https://desktop.github.com
+2. Kur ve GitHub hesabınla giriş yap
+3. File → Add Local Repository
+4. Klasörü seç: C:\Users\Cağrı Burak\Desktop\Yeni klasör (4)
+5. "Publish repository" butonuna tıkla
+6. Bitti! ✅
+
+═══════════════════════════════════════════════════════════════
+
+
+
+
